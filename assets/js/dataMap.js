@@ -2,7 +2,7 @@
 
 
 //changing map type
-var chartDate="All Time", chartProd="Ethernal",chartmvt_type="Sales Perfomance(%)",min=1, max=100,filter_by="Violations"
+var chartDate="All Time", chartProd="Ethernal",chartmvt_type="Sales Perfomance(%)",min=10000, max=9000000,filter_by="Violations"
 function changingLegendTitle(){
     Mapchart.legend.title.attr({
         text:chartDate+" "+chartProd+" "+chartmvt_type
@@ -422,12 +422,12 @@ $('.map-time').on('change', function(){
     changingSeriesData()
 })
 // Initiate the chart
-var max=100,min=1
+var max=9000000,min=90000
 const Mapchart=Highcharts.mapChart('Map-data', {
     
     series: [
         {
-        		name:"Reported Violations",
+        		name:"Remittance Collection By County",
             animation: {
                 duration: 1000,
                 // easing: 'easeOutBounce'
@@ -997,6 +997,11 @@ const Mapchart=Highcharts.mapChart('Map-data', {
         shared: true
     },
 
+    tooltip: {
+        pointFormat: '<span style="font-weight:500;">{point.name} County: </span>KES {point.value}',
+        shared: true
+    },
+
     chart: {
         height: 600,
         style: {
@@ -1013,7 +1018,7 @@ const Mapchart=Highcharts.mapChart('Map-data', {
 
     legend: {
         title: {
-            text: 'Reported Violations By County'
+            text: 'Remittance Collection By County'
         },
         
     },
@@ -1043,11 +1048,11 @@ const Mapchart=Highcharts.mapChart('Map-data', {
 
         stops: [
             [0, '#ebedf0'],
-            [0.2, '#ffcacd'],
-            [0.4, '#f16964'],
-            [0.6, '#ff2a15'],
-            [0.7, '#df0013'],
-            [1, '#c50000']
+            [0.2, '#c6e6d0'],
+            [0.4, '#7dc794'],
+            [0.6, '#46af68'],
+            [0.7, '#358e52'],
+            [1, '#215d34']
         ] 
     },
     

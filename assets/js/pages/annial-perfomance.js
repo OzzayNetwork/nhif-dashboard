@@ -17,7 +17,7 @@ Highcharts.chart('annual-sales', {
     }],
     yAxis: [ { // Secondary yAxis
         title: {
-            text: 'Violations Count',
+            text: 'Expenditure',
             style: {
                 color: "#c50000"
             }
@@ -40,7 +40,7 @@ Highcharts.chart('annual-sales', {
             }
         },
         title: {
-            text: 'Revenue (KES)',
+            text: 'Remittance (KES)',
             style: {
                 color: "#007647"
             }
@@ -57,7 +57,7 @@ Highcharts.chart('annual-sales', {
         }
     },
     series: [{
-        name: 'Revenue',
+        name: 'Remittance',
         type: 'column',
         color:'#00c399',
         yAxis: 1,
@@ -68,13 +68,13 @@ Highcharts.chart('annual-sales', {
         }
 
     }, {
-        name: 'Violations',
+        name: 'Expenditure',
         type: 'spline',
         color:'#c50000',
-        data: [13, 14, 5, 7, 3, 13, 14, 10, 5,
-            27, 11, 16],
+        data: [134560, 144560, 54560, 74560, 34560, 134560, 144560, 104560, 54560,
+            274560, 114560, 164560],
         tooltip: {
-            valueSuffix: ''
+            valuePrefix: 'KES '
         }
     }]
 });
