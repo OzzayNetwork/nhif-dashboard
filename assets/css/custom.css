@@ -1234,8 +1234,8 @@ padding: 0px;
     }
 
     .quick-stats-cont{
-        background-color: #11998e;
-        background:linear-gradient(to right, rgb(17, 153, 142), rgb(0 98 32));
+        background-color: #0f095e;
+        background:linear-gradient(to right, rgb(15 9 94), rgb(42 188 238));
         color: white;
         position: relative;
     }
@@ -1291,8 +1291,8 @@ padding: 0px;
         opacity: 0.1;
     }
     .index-live-stats{
-        background: #11998e;
-        background: linear-gradient(132deg, rgb(2 91 36) 0%, rgb(128, 208, 199) 100%);
+        background: #1e1c73;
+        background: linear-gradient(132deg, rgb(15 9 94) 0%, rgb(42 188 238) 100%);
     }
     .live-data-card{
         background-color: #ffffff12;
