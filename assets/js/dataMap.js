@@ -29,11 +29,11 @@ $('.filter-by').on('change', function(){
         unitsTooltips()
 
         Mapchart.legend.title.attr({
-            text:"Reported Violations By Counties"
+            text:"Expenditure By County"
         })
 
         Mapchart.series[0].update({
-            name:"Reported Violations"
+            name:"Expenditure By county"
         })
     }
 
@@ -45,11 +45,11 @@ $('.filter-by').on('change', function(){
         cashTooltips()
 
         Mapchart.legend.title.attr({
-            text:"Collected Revenue By Counties"
+            text:"Remittance By Counties"
         })
 
         Mapchart.series[0].update({
-            name:"Collected Revenue"
+            name:"Remittance By Counties"
         })
     }
 
