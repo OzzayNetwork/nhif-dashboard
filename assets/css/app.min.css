@@ -698,11 +698,11 @@ body[data-sidebar=dark] .vertical-menu {
 }
 
 body[data-sidebar=dark] #sidebar-menu ul li a {
-    color: #cecece
+    color: #ffffffa6
 }
 
 body[data-sidebar=dark] #sidebar-menu ul li a i {
-    color: #cecece
+    color: #ffffffa6
 }
 
 body[data-sidebar=dark] #sidebar-menu ul li a:hover {
@@ -771,11 +771,11 @@ body[data-sidebar=dark] .mm-active>i {
 }
 
 body[data-sidebar=dark] .mm-active .active {
-    color: #ffeb3b!important
+    color: #def4fc!important
 }
 
 body[data-sidebar=dark] .mm-active .active i {
-    color: #ffeb3b!important
+    color: #def4fc!important
 }
 
 body[data-sidebar=dark] .menu-title {
@@ -1655,7 +1655,7 @@ body[data-layout=horizontal][data-layout-size=boxed] .navbar-header {
     display: block;
     width: 25%;
     height: 25%;
-    background-color: #008134;
+    background-color: #1e1c73;
     border-radius: 100%;
     -webkit-animation: chase-dot-before 2s infinite ease-in-out both;
     animation: chase-dot-before 2s infinite ease-in-out both

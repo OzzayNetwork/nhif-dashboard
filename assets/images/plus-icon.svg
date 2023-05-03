@@ -4,13 +4,13 @@
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:#006220;}
+	.st1{fill:#0f095e;}
 	.st2{fill:#4CBF6E;}
 </style>
 <g>
 	
 		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="50.3155" y1="139.4155" x2="461.9402" y2="377.067" gradientTransform="matrix(1 0 0 -1 0 514)">
-		<stop  offset="2.770450e-07" style="stop-color:#006220"/>
+		<stop  offset="2.770450e-07" style="stop-color:#0f095e"/>
 		<stop  offset="1" style="stop-color:#4CBF6E"/>
 	</linearGradient>
 	<path class="st0" d="M302.9,0v209.8H504v90.5H302.9V512h-94.3V300.3H7.4v-90.5h201.1V0H302.9z"/>
